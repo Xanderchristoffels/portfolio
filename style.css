@@ -407,7 +407,8 @@ input, textarea{
 	color: var(--darkgrey);
 	font-size: var(--medium1);
 	padding: 3px 40px;
-	text-decoration:none;
+	text-decoration: none;
+    z-index: 1000;
 }
 #contactSubmit:hover{
     cursor: pointer;
@@ -453,7 +454,8 @@ input, textarea{
   }
 
   .footerSvg{
-    margin-top: -280px;
+    margin-top: -270px;
+    z-index: -1;
   }
   
   .footer > * {
