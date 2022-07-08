@@ -41,7 +41,7 @@ html{
     z-index: 999;
 }
 .header {
-    background: var(--cyan);
+    background: var(--white);
     color: rgb(26, 25, 25);
     position: fixed;
     width: 100vw;
